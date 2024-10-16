@@ -1,0 +1,22 @@
+.media-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 280px;
+    width: 150px;
+}
+.media-card .image {
+    height: 230px;
+}
+.media-card img {
+    object-fit: cover;
+}
+
+.anime {
+    font-family: "Mukta", sans-serif;
+    height: fit-content;
+    color: #5e70e0;
+    font-size: 9px;
+    text-align: center;
+    margin: 10px;
+}

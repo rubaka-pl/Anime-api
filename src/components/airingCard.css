@@ -1,0 +1,34 @@
+.card {
+    max-height: 110px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    color: white;
+}
+.card img {
+    width: 65px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-details {
+    font-family: "Mukta", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    color: #c9d4ff;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.card-title h3 {
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.card-title {
+    color: white;
+}
